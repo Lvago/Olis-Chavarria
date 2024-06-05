@@ -1,52 +1,319 @@
 /*ESTILS GENERALS*/
-*{
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-  list-style: none;
-  box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: futura;
+    min-height: 100vh;
+}
+
+.text-styles {
+    font-size: 20px;
 }
 
 /*ESTILS HEADER*/
-nav {
-  background: black;
-  height: 80px;
-  width: 100%;
-
+header {
+    background-color: #312533;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 998;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.3);
+    width: 100%;
 }
 
 #logo_header {
-  height: 70px;
-  line-height: 80;
-  padding: 0 50px;
+    margin-left: 20px;
 }
 
-nav ul{
-  float: right;
-  margin-right: 20px;
+#logo_header img {
+    height: 80px;
 }
 
-nav ul li{
-  display: inline-block;
-  line-height: 80px;
-  margin: 0 5px;
+nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
 }
 
-nav ul li a {
-  color: white;
-  font-size: 17px;
-  padding: 7px 13px;
+nav ul {
+    list-style: none;
 }
 
-a.active, a.hover {
-  color: olivedrab;
-  transition: 0.5s;
-  border-bottom-color: olivedrab;
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+    height: 50px;
 }
 
-.checkbtn {
-  font-size: 30px;
-  color: white;
-  float: right;
-  line-height: 80px;
+nav li a:hover {
+    color: #D9DD51;
 }
+
+nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    height: 100%;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+}
+
+#menu-icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(47, 39, 51, 0.9);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.3);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+}
+
+.sidebar li {
+    width: 100%;
+}
+
+.sidebar a {
+    width: 100%;
+}
+
+
+.menu-button {
+    display: none;
+}
+@media (max-width: 1300px) {
+    #logo_header img {
+        width: 300px;
+        height: auto;
+    }
+
+    .hideOnMobile {
+        display: none;
+    }
+
+    .menu-button {
+        display: block;
+    }
+
+}
+
+
+/*ESTILS SECCIONS*/
+
+section {
+    padding: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+@media (max-width: 1300px) {
+    section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+.contingut-seccio {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 40px
+}
+
+@media (max-width: 1300px) {
+    .contingut-seccio {
+        margin-left: 0px;
+        margin-right: 0px;
+    } 
+}
+/*ESTIL BENVINGUDA*/
+#benvinguda-section {
+    background-image: url('img/img_benvinguda/ImatgeFonsBenvinguda.png'); /* Ruta de la teva imatge */
+    background-size: cover; /* Cobrirà tota l'àrea sense distorsionar l'imatge */
+    background-position: center; /* Centra l'imatge en la secció */
+    background-repeat: no-repeat; /* Evita que l'imatge es repeteixi */
+    height: 500px; /* Ajusta això segons les teves necessitats */
+    display: flex;
+    position: relative; /* Posicionament relatiu per a elements fills posicionats absolutament */
+    align-items: center; /* Alinea el contingut verticalment al centre */
+    justify-content: center; /* Alinea el contingut horitzontalment al centre */
+    color: white; /* Canvia el color del text a blanc si l'imatge de fons és fosca */
+}
+
+#benvinguda-section .degradat {
+    position: absolute; /* Posiciona el degradat sobre la imatge de fons */
+    top: 0;
+    left: 0;
+    width: 100%; /* Cobrir tota l'amplada de la secció */
+    height: 100%; /* Cobrir tota l'alçada de la secció */
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.7)); /* Gradient de clar a més fosc */
+    z-index: 0; /* Assegura't que estigui darrere del logo */
+}
+
+#benvinguda-section #logo-benvinguda {
+    height: 150px;
+    position: relative; /* Assegura que el logo estigui per sobre del degradat */
+    z-index: 1; /* El logo queda sobre el degradat */
+}
+
+@media (max-width: 1300px) {
+    
+    #benvinguda-section #logo-benvinguda {
+        width: 100%;
+        height: auto;
+        position: relative; /* Assegura que el logo estigui per sobre del degradat */
+        z-index: 1; /* El logo queda sobre el degradat */
+    }
+}
+/*ESTIL Història*/
+
+#historia-section {
+    align-items: center;
+    background-color: #FFFEEE;
+}
+
+#historia-section #text-imatge-historia{
+    align-items: center;
+    display: flex;
+}
+
+#historia-section p{
+    margin-right: 40px;
+    text-align: justify;
+}
+
+#historia-section #claim-historia {
+    margin: 80px;
+    text-align: center;
+}
+
+#imatge_historia {
+    width: 40%;
+}
+
+@media (max-width: 1300px) {
+    #historia-section #text-imatge-historia {
+        flex-direction: column; /* Canvia la disposició de fila a columna */
+        align-items: center; /* Alinea els elements al centre en la direcció de la columna */
+    }
+
+    #historia-section p {
+        margin-right: 0; /* Elimina el marge dret, ja no és necessari */
+    }
+
+    #historia-section img {
+        width: 80%; /* Ajusta la mida de la imatge per a millorar la visibilitat en pantalles estretes */
+        margin-top: 20px; /* Afegeix un marge superior per separar el text de la imatge */
+    }
+    #historia-section #claim-historia {
+        margin-top: 40px;
+        margin: 0px;
+    }
+}
+
+/*ESTIL PRODUCCIO*/
+
+#produccio-section {
+    align-items: center;
+    background-color: #EFECCE;
+}
+
+#produccio-section #text-imatge-text-produccio {
+    align-items: center;
+    display: flex;
+    text-align: justify;
+}
+
+#produccio-section img {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#produccio-section #claim-produccio {
+    margin-top: 40px;
+    text-align: right;
+}
+
+@media (max-width: 1300px) {
+    #produccio-section #text-imatge-text-produccio  {
+        flex-direction: column; /* Canvia la disposició de fila a columna */
+        align-items: center; /* Alinea els elements al centre en la direcció de la columna */
+    }
+
+    #produccio-section img {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #produccio-section #claim-produccio {
+        text-align: center;
+    }
+
+}
+
+/*Estils Comercialitzacio*/
+#productes-section{
+    align-items: center;
+    background-color: #DFE5D3;
+}
+
+#productes-section #coleccio-productes {
+    margin-top: 40px;
+    align-items: center;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+#productes-section .producte {
+    margin: 30px 80px 30px 80px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#productes-section .producte img{
+    height: 200px;
+    
+}
+
+#productes-section #contenidor-claim-productes {
+    margin-top: 75px;
+    margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+@media (max-width: 1300px) {
+    #productes-section #coleccio-productes {
+        flex-direction: column; /* Canvia la disposició de fila a columna */
+        align-items: center; /* Alinea els elements al centre en la direcció de la columna */
+    }
+
+
+}
+

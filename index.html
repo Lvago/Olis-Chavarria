@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olis Chavarria</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a id="logo_header" href="#Benvinguda">
+            <img src="img/img_header/LogoHeader.png" alt="Logo d'Olis Chavarria"></img>
+        </a>
+        <nav >
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#sidebar"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="#Historia">Història</a></li>
+                <li><a href="#Produccio">Producció</a></li>
+                <li><a href="#Produccio">Comercialització</a></li>
+                <li><a href="#Produccio">Serveis</a></li>
+                <li><a href="#Produccio">Contacte</a></li>
+                <!-- Añade más botones según necesites -->
+            </ul>
+            <ul id="nav-list">
+                <li class="hideOnMobile"><a href="#Historia">Història</a></li>
+                <li class="hideOnMobile"><a href="#Produccio">Producció</a></li>
+                <li class="hideOnMobile"><a href="#Produccio">Comercialització</a></li>
+                <li class="hideOnMobile"><a href="#Produccio">Serveis</a></li>
+                <li class="hideOnMobile"><a href="#Produccio">Contacte</a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#sidebar"><svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 -960 960 960" width="36px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="benvinguda-section">
+        <div class="degradat"></div>
+        <img id="logo-benvinguda" src="img/img_benvinguda/LogoChavarriaBenvinguda.png" alt="Logo Chavarria benvinguda-section"></img>
+    </section>
+
+    <section id="historia-section">
+        <h2 class="titol-seccio">La nostra història </h2>
+
+        <div class="contingut-seccio">
+            <div id="text-imatge-historia">
+                <p class="text-styles">
+                    En el cor d'un paisatge captivador, entre muntanyes i valls amagades, es troba la finca de la família Chavarria, coneguda carinyosament com "la nostra muntanya". Aquest indret únic, bressolat entre dos vessants i acaronat pel barranc de les Monges, és on va néixer la visió de Joan Chavarria. Allà l'any 2014, amb passió i dedicació, va començar a forjar el somni d'ofertar un oli d'oliva verge extra d'una qualitat inigualable. <br>
+                    <br>
+                    Sobre una extensió de 60 jornals, aquest terreny es converteix en un tapís viu, teixit amb bancals de pedra seca que sosté oliveres, garrofers i ametllers de la prestigiosa varietat marcona. La diversitat de cultius revela un compromís amb la biodiversitat i el manteniment de pràctiques agrícoles sostenibles. <br>
+                    <br>
+                    Mirant cap al futur, el 2024 serà testimoni de l'arrelament d'una nova finca d'una hectàrea a Bot (Terra Alta), on la nostra dedicació a les pràctiques tradicionals brilla amb el pla de plantació 6x6. <br>
+                    <br>
+                    Aquesta decisió simbolitza el nostre compromís amb una agricultura que respecta el ritme de la terra, allunyant-se de les tentacions de la producció superintensiva, per assegurar que cada gota d'Olis Chavarria sigui un reflex de qualitat, sabor i sostenibilitat.<br>
+                </p>
+                <img id="imatge_historia" src="img/img_historia/ImatgeHistoria.png"></img>
+            </div>
+            <h3 class="claim" id="claim-historia">A Olis Chavarria, cada oliva és una història, cada gota d'oli un testament de l'amor per la terra. Us convidem a ser part d'aquesta viatge que uneix passat, present i futur en cada ampolleta del nostre exquisit oli d'oliva verge extra.</h3>
+        </div>
+    </section>
+    <section id="produccio-section">
+        <h2 class="titol-seccio">Producció d'oli</h2>
+
+        <div class="contingut-seccio">
+            <div id="text-imatge-text-produccio">
+                <p class="text-styles" id="text-produccio-1">
+                    En el cor de la tradició i l'excel·lència d'Olis Chavarria, la recollida de les olives és un ritual que es realitza amb mestratge i respecte profund per la natura. Aquest procés comença amb l'ús de les borrasses, també conegudes com a "mantells", estesos delicadament sota els arbres, un mètode ancestral que protegeix cada oliva caiguda. Així, les persones encarregades de la recol·lecció, armades amb màquines de varetes, procedeixen a escarrassar les branques amb cura i precisió, garantint que cada fruit sigui desprendit amb el mínim dany possible.<br>
+                    <br>
+                    Una vegada recollides, les olives són transportades al molí amb un zel i rapidesa que preserva la seva frescor i qualitat inherent. Aquest trasllat ràpid és clau per evitar qualsevol degradació del fruit, essent descarregades a granel i molturades en un lapse de temps extraordinàriament curt. Aquesta diligència assegura que l'oli produït mantingui la seva essència pura i una qualitat excepcional. <br>
+                </p>
+                <img id="imatge_historia" src="img/img_produccio/imatge_produccio.png"></img>
+                <div id="text-claim" >
+                    <p class="text-styles" id="text-produccio-2">
+                        La reticulospinal del nostre procés de producció ens permet assolir nivells de qualitat superbs, amb nivells d'acidesa excepcionalment baixos, generalment no superiors a 0.3%. Aquesta precisió es reflecteix en la riquesa cromàtica del nostre oli, que varia d'un verd intens a un groc lluminós, depenent de l'etapa de la collita en què es recull l'oliva. Aquesta variació de color és testimoniatge del cicle natural de l'oliva, i de la nostra capacitat per capturar l'essència de cada moment de la temporada.
+                    </p>
+                    <h3 class="claim" id="claim-produccio">A Olis Chavarria, creiem fermament que la qualitat suprema s'assoleix a través del respecte per les nostres arrels i la implementació de pràctiques tradicionals adaptades amb innovació. El resultat és un oli d'oliva verge extra que no només destaca per la seva baixa acidesa i bellesa visual, sinó també per la seva capacitat de despertar els sentits, oferint una experiència gustativa que connecta el passat amb el present.</h3>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section id="productes-section">
+        <h2 class="titol-seccio" >Comercialització </h2>
+        <div class="contingut-seccio"> 
+            <p class="text-styles" id="text-productes"> Aquest son els olis que tenim a la venda: </p>
+            <div id="coleccio-productes">
+                <div class="producte">
+                    <img src="img/img_productes/oli 1L.png">
+                    <h3> Oli Chavarria 1L</h3>
+                    <p>Terra Alta <br>Verge Extra<br> Preu: 14€</p>
+                </div>
+                <div class="producte">
+                    <img src="img/img_productes/olichava5l.png">
+                    <h3> Oli Chavarria 5L</h3>
+                    <p>Terra Alta <br>Verge Extra<br> Preu: 50€</p>
+                </div>
+                <div class="producte">
+                    <img src="img/img_productes/oli auca 5l.png">
+                    <h3> Oli Aucalns 5L</h3>
+                    <p>Terra Alta <br>Verge Extra<br> Preu: 43€</p>
+                </div>
+            </div>
+            <div id="contenidor-claim-productes">
+                <h3 class="claim" id="claim-productes">Si t'interessen, contacta'ns</h3>
+            </div>
+        </div>
+
+    </section>
+    <section id="serveis-section">
+        <h2 class="titol-seccio">Els nostres serveis </h2>
+    </section>
+    <section>
+        <h2>Contacte </h2>
+    </section>
+    <footer>
+        <h2>Peu</h2>
+    </footer>
+    
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector(".sidebar");
+            sidebar.style.display = 'flex';
+        }
+
+        function hideSidebar(){
+            const sidebar = document.querySelector(".sidebar");
+            sidebar.style.display = 'none';
+        }
+    </script>
+</body>
+</html>
