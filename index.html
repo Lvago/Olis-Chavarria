@@ -14,19 +14,19 @@
         <nav >
             <ul class="sidebar">
                 <li onclick=hideSidebar()><a href="#sidebar"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
-                <li><a href="#Historia">Història</a></li>
-                <li><a href="#Produccio">Producció</a></li>
-                <li><a href="#Produccio">Comercialització</a></li>
-                <li><a href="#Produccio">Serveis</a></li>
-                <li><a href="#Produccio">Contacte</a></li>
+                <li><a href="#historia-section">Història</a></li>
+                <li><a href="#produccio-section">Producció</a></li>
+                <li><a href="#productes-section">Comercialització</a></li>
+                <li><a href="#serveis-section">Serveis</a></li>
+                <li><a href="#contacte-section">Contacte</a></li>
                 <!-- Añade más botones según necesites -->
             </ul>
             <ul id="nav-list">
-                <li class="hideOnMobile"><a href="#Historia">Història</a></li>
-                <li class="hideOnMobile"><a href="#Produccio">Producció</a></li>
-                <li class="hideOnMobile"><a href="#Produccio">Comercialització</a></li>
-                <li class="hideOnMobile"><a href="#Produccio">Serveis</a></li>
-                <li class="hideOnMobile"><a href="#Produccio">Contacte</a></li>
+                <li><a href="#historia-section">Història</a></li>
+                <li><a href="#produccio-section">Producció</a></li>
+                <li><a href="#productes-section">Comercialització</a></li>
+                <li><a href="#serveis-section">Serveis</a></li>
+                <li><a href="#contacte-section">Contacte</a></li>
                 <li class="menu-button" onclick=showSidebar()><a href="#sidebar"><svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 -960 960 960" width="36px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
             </ul>
         </nav>
@@ -78,7 +78,7 @@
         </div>
     </section>
     <section id="productes-section">
-        <h2 class="titol-seccio" >Comercialització </h2>
+        <h2 class="titol-seccio" >Els nostres productes </h2>
         <div class="contingut-seccio"> 
             <p class="text-styles" id="text-productes"> Aquest son els olis que tenim a la venda: </p>
             <div id="coleccio-productes">
@@ -106,12 +106,43 @@
     </section>
     <section id="serveis-section">
         <h2 class="titol-seccio">Els nostres serveis </h2>
+        <div class="contingut-seccio">
+            <div id="text-imatge-serveis">
+                <div id="imatge-claim-serveis">
+                    <p class="text-styles">
+                        A Olis Chavarria estem treballant en finques d'oliveres, garrofers i ametllers pròpies; tanmateix, cultivem també finques alienes en diferents tipus de règims depenen del tipus i característiques de maneig i rendibilitat de les finques.<br>
+                        <br>
+                        Darrerament, hem dut a terme diverses transformacions de finques d'ametllers, amb cultiu d'olivera de la varietat arbequina amb rec de suport.<br>
+                        <br>        
+                    </p>
+                    <h3 class="claim" id="claim-serveis">Posa't en contacte amb nosaltres i estudiarem les possibilitats.</h3>
+                </div>
+                <img id="imatge-serveis" src="img/img_serveis/ImatgeServeis.png"><img>
+            </div>          
+        </div>
     </section>
-    <section>
-        <h2>Contacte </h2>
+    <section id="contacte-section">
+        <h2 class="titol-seccio">Contacte </h2>
+        <div class="contingut-seccio" id="text-imatge-contactes">
+            <div id="vies-contacte">
+                <div class="contacte">
+                    <img class="icona-contacte" src="icons/icones_contactes/Phone.png"></img>
+                    <p class="text-contacte">Tel. & WhatsApp: +34 666 666 666</p>
+                </div>
+                <div class="contacte">
+                    <img class="icona-contacte" src="icons/icones_contactes/Insta.png"></img>
+                    <p class="text-contacte">Instagram: @olisChavarria</p>
+                </div>
+                <div class="contacte">
+                    <img class="icona-contacte" src="icons/icones_contactes/Facebook.png"></img>
+                    <p class="text-contacte">Facebook: @OlisChavarria</p>
+                </div>
+            </div>
+            <img id="image-contactes" src="icons/icones_contactes/imatgeContacte.png">
+        </div>
     </section>
     <footer>
-        <h2>Peu</h2>
+        <h2 id="copy-footer">© OlisChavarria 2024</h2>
     </footer>
     
     <script>

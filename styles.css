@@ -10,10 +10,15 @@ html, body {
     height: 100%;
     font-family: futura;
     min-height: 100vh;
+    scroll-behavior: smooth;
 }
 
 .text-styles {
     font-size: 20px;
+}
+
+.titol-seccio{
+    margin-top:50px
 }
 
 /*ESTILS HEADER*/
@@ -112,6 +117,14 @@ nav a {
 
     .menu-button {
         display: block;
+    }
+
+}
+
+@media (max-width: 400px) {
+    #logo_header img {
+        width: 250px;
+        height: auto;
     }
 
 }
@@ -316,4 +329,92 @@ section {
 
 
 }
+
+/*Estils Serveis*/
+
+#serveis-section{
+    align-items: center;
+    background-color: #FFE7A8;
+}
+
+#text-imatge-serveis {
+    display: flex;
+    text-align: justify;
+}
+
+#text-imatge-serveis p {
+    margin-right: 40px;
+}
+
+#claim-serveis {
+    margin: 80px;
+    text-align:center;
+}
+
+@media (max-width: 1300px) {
+    #text-imatge-serveis {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #imatge-serveis {
+        width: 80%;
+    }
+
+
+}
+
+/*Estils Contacte*/
+
+
+#contacte-section{
+    align-items: center;
+    background-color: #D9D9D9;
+}
+
+.contacte {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.icona-contacte {
+    margin-right: 20px;
+}
+
+#text-imatge-contactes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 600px) {
+    #text-imatge-contactes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+/*Estils Footer*/
+
+footer {
+    align-items: center;
+    background-color: #312533;
+    text-align: center;
+    
+}
+
+#copy-footer {
+    color:#EFECCE;
+    padding: 30px;
+   
+}
+
+
+
+
+
+
 
