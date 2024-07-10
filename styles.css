@@ -101,11 +101,45 @@ nav a {
     width: 100%;
 }
 
+.selector_idiomes {
+    padding: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+.selector_idiomes button {
+    background: none;
+    border: none;
+    color: #e8eaed;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.selector_idiomes button:hover {
+    color: #D9DD51;
+}
+
+.selector_idiomes .img_bandera {
+    width: 30px;
+    height: 20px;
+    transition: transform 0.3s;
+}
+
+.selector_idiomes button:hover .img_bandera {
+    transform: scale(1.1);
+}
 
 .menu-button {
     display: none;
 }
-@media (max-width: 1300px) {
+
+#nav-list {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+@media (max-width: 1400px) {
     #logo_header img {
         width: 300px;
         height: auto;
@@ -118,6 +152,8 @@ nav a {
     .menu-button {
         display: block;
     }
+
+    
 
 }
 
@@ -232,6 +268,7 @@ section {
 
     #historia-section p {
         margin-right: 0; /* Elimina el marge dret, ja no és necessari */
+        justify-content: left;
     }
 
     #historia-section img {

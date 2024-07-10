@@ -1,0 +1,20 @@
+{
+    "title": "Olis Chavarria",
+    "header": {
+        "historia": "Historia",
+        "produccio": "Producción",
+        "productes": "Productos",
+        "serveis": "Servicios",
+        "contacte": "Contacto"
+    },
+    "sections": {
+        "historia": {
+            "title": "La nostra història",
+            "content": "En el cor d'un paisatge captivador..."
+        },
+        "produccio": {
+            "title": "Producció d'oli",
+            "content": "En el cor de la tradició..."
+        }
+    }
+}
