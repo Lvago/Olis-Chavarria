@@ -383,6 +383,11 @@ section {
     margin-right: 40px;
 }
 
+#imatge-serveis {
+    width: 500px;
+    height: auto;
+}
+
 #claim-serveis {
     margin: 80px;
     text-align:center;
@@ -412,6 +417,7 @@ section {
 .contacte {
     display: flex;
     align-items: center;
+    font-weight: bold;  /* Opcional: Hace el texto en negrita */
     margin: 20px;
 }
 
@@ -424,6 +430,17 @@ section {
     align-items: center;
     justify-content: center;
     margin-bottom: 50px;
+}
+
+.link_rss {
+    color: rgba(47, 39, 51, 0.9);;  /* Cambia el color del texto */
+    text-decoration: none;  /* Elimina el subrayado */
+    font-weight: bold;  /* Opcional: Hace el texto en negrita */
+    transition: color 0.3s;  /* Efecto de transición suave para el cambio de color */
+}
+
+.link_rss:hover {
+    color: #0056b3;  /* Cambia el color cuando se pasa el mouse por encima */
 }
 
 @media (max-width: 600px) {
