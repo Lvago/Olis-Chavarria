@@ -72,6 +72,27 @@ nav a {
     align-items: center;
 }
 
+section a {
+    text-decoration: none;
+    color: #000000;
+}
+
+section a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+section a:link {
+    text-decoration: none;
+    color: black;
+}
+
+section a:hover {
+    text-decoration: underline;
+    color: #312533;
+}
+
+
 #menu-icon {
     display: none;
     font-size: 30px;
@@ -392,21 +413,6 @@ section {
     border-radius: 10px;
     padding: 20px;
     
-}
-
-section a:visited {
-    text-decoration: none;
-    color: black;
-}
-
-section a:link {
-    text-decoration: none;
-    color: black;
-}
-
-section a:hover {
-    text-decoration: underline;
-    color: #312533;
 }
 
 @media (max-width: 1300px) {
