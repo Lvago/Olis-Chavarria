@@ -394,12 +394,19 @@ section {
     
 }
 
-a:link {
+section a:visited {
     text-decoration: none;
+    color: black;
 }
 
-a:hover {
+section a:link {
+    text-decoration: none;
+    color: black;
+}
+
+section a:hover {
     text-decoration: underline;
+    color: #312533;
 }
 
 @media (max-width: 1300px) {
