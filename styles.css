@@ -34,10 +34,11 @@ header {
 
 #logo_header {
     margin-left: 20px;
+    margin: 10px;
 }
 
 #logo_header img {
-    height: 80px;
+    height: 60px;
 }
 
 nav {
@@ -258,6 +259,7 @@ section {
 
 #imatge_historia {
     width: 40%;
+    margin-bottom: 50px;
 }
 
 @media (max-width: 1300px) {
@@ -297,6 +299,9 @@ section {
 #produccio-section img {
     margin-right: 50px;
     margin-left: 50px;
+    object-fit:cover;
+    height: 700px;
+    width: 150px;
 }
 
 #produccio-section #claim-produccio {
@@ -319,12 +324,29 @@ section {
         text-align: center;
     }
 
+    #produccio-section img {
+        margin-right: 50px;
+        margin-left: 50px;
+        object-fit:cover;
+        height: 400px;
+        width: 300px;
+    }
+
 }
 
-/*Estils Comercialitzacio*/
+/*Estils Productes*/
 #productes-section{
-    align-items: center;
     background-color: #DFE5D3;
+}
+
+#text-imatge-productes {
+    display: flex;
+    padding-bottom: 200px;
+    
+}
+
+#text-productes {
+    padding-right: 50px;
 }
 
 #productes-section #coleccio-productes {
@@ -345,21 +367,44 @@ section {
 }
 
 #productes-section .producte img{
-    height: 200px;
+    height: 450px;
+    width: fit-content;
+    margin-bottom: 20px;
+    
     
 }
 
-#productes-section #contenidor-claim-productes {
-    margin-top: 75px;
-    margin-bottom: 50px;
+.producte {
+    display: flex;
+    align-items: center;
+}
+
+#claim-productes {
+    padding: 10px;
     width: 100%;
     display: flex;
     text-align: center;
     justify-content: center;
+    
+}
+
+.claim {
+    background-color:#D9DD51;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 @media (max-width: 1300px) {
-    #productes-section #coleccio-productes {
+    #productes-section #text-imatge-productes{
         flex-direction: column; /* Canvia la disposició de fila a columna */
         align-items: center; /* Alinea els elements al centre en la direcció de la columna */
     }
@@ -385,7 +430,9 @@ section {
 
 #imatge-serveis {
     width: 500px;
-    height: auto;
+    object-fit:cover;
+    height: 400px;
+    width: 400px;
 }
 
 #claim-serveis {
