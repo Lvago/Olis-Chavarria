@@ -1,20 +1,37 @@
 {
-    "title": "Olis Chavarria",
+    "title": "Oli Chavarria",
     "header": {
         "historia": "Histoire",
         "produccio": "Production",
-        "productes": "Ouiles",
+        "productes": "Huile",
         "serveis": "Services",
         "contacte": "Contact"
     },
     "sections": {
+        "productes": {
+            "title": "Notre huile",
+            "text": "<b> Oli Chavarria - Huile d'Olive de Qualité Supérieure</b> <br> <br> Découvrez le véritable goût de la terre méditerranéenne avec l'Oli Chavarria, une huile d'olive élaborée avec soin et passion. Nos oliviers, cultivés de manière traditionnelle et durable, produisent une huile de la plus haute qualité, obtenue directement à partir des olives et uniquement par des procédés mécaniques afin de préserver toutes ses propriétés naturelles. Caractéristiques principales : <br> <br> <b>100% vierge :</b> Obtenue directement à partir d'olives sélectionnées et uniquement par des procédés mécaniques. <br> <br> <b> Saveur unique : </b> Notes fruitées avec une touche d'amertume et de piquant équilibrée, idéale pour les salades, légumes, poissons et viandes. <br> <br> <b> Naturelle et saine : </b> Riche en antioxydants et en acides gras monoinsaturés, bénéfique pour la santé du cœur. <br> <br> <b> Origine locale : </b> Élaborée à partir d'olives récoltées de manière traditionnelle sur notre domaine familial, engagé pour la qualité et la durabilité. <br> <br> Idéale pour les chefs expérimentés ainsi que pour ceux qui souhaitent sublimer leurs plats quotidiens, l'Oli Chavarria est bien plus qu'un simple condiment, c'est une expérience gastronomique qui évoque la pureté et l'essence de notre terre. Essayez-la et apportez un morceau de Méditerranée à votre table !",
+            "claim": "Si vous êtes intéressé, contactez-nous"
+        },
         "historia": {
-            "title": "La nostra història",
-            "content": "En el cor d'un paisatge captivador..."
+            "title": "Notre histoire",
+            "text": "Au cœur d'un paysage captivant, niché entre montagnes et vallées cachées, se trouve le domaine de la famille Chavarria, que nous appelons affectueusement « la montagne ». Dans ce lieu unique, bercé entre deux versants et caressé par le ravin de les Monges, c'est là que Joan Chavarria, en 2014, a commencé à forger le rêve d'offrir une huile d'olive vierge de qualité supérieure. Sur une superficie de 60 journaux, cette terre devient une tapisserie vivante, tissée de terrasses en pierre sèche supportant des oliviers, des caroubiers et des amandiers de la prestigieuse variété marcona. <br><br>En regardant vers l'avenir, 2024 a vu l'enracinement d'un nouveau domaine d'un hectare à Bot (Terra Alta), où notre dévouement aux pratiques traditionnelles brille avec le plan de plantation 6x6. Cette décision symbolise notre engagement envers une agriculture respectueuse du rythme de la terre, s'éloignant des tentations de la production super-intensive pour garantir que chaque goutte d'Oli Chavarria reflète la qualité, la saveur et la durabilité.",
+            "claim": "Chez Oli Chavarria, chaque olive raconte une histoire, chaque goutte d'huile est un témoignage de l'amour pour la terre. Nous vous invitons à faire partie de ce voyage qui unit passé, présent et futur dans chaque bouteille de notre exquise huile d'olive."
         },
         "produccio": {
-            "title": "Producció d'oli",
-            "content": "En el cor de la tradició..."
+            "title": "Production d'huile",
+            "text-1": "Au cœur de la tradition et de l'excellence des Oli Chavarria, la récolte des olives est un rituel effectué avec maîtrise et profond respect pour la nature. Ce processus commence par l'utilisation de filets, également appelés « manteaux », délicatement étendus sous les arbres, une méthode ancestrale qui protège chaque olive tombée. Ainsi, les récolteurs, munis de machines à tiges, procèdent à secouer délicatement les branches avec soin et précision, garantissant que chaque fruit se détache avec le moins de dommage possible. <br> <br> Une fois récoltées, les olives sont transportées au moulin avec soin et rapidité pour préserver leur fraîcheur et leur qualité inhérente. Ce transfert rapide est essentiel pour éviter toute dégradation du fruit, les olives étant déchargées en vrac et moulues dans un délai extraordinairement court. Cette diligence garantit que l'huile produite conserve son essence pure et une qualité exceptionnelle. <br>",
+            "text-2": "La minutie de notre processus de production nous permet d'atteindre des niveaux de qualité remarquables, avec des niveaux d'acidité exceptionnellement bas, généralement ne dépassant pas 0,3%. Cette précision se reflète dans la richesse chromatique de notre huile, qui varie du vert intense au jaune lumineux, selon l'étape de la récolte à laquelle les olives sont cueillies. Cette variation de couleur témoigne du cycle naturel de l'olive, et de notre capacité à capturer l'essence de chaque moment de la saison.",
+            "claim": "Le résultat est une huile d'olive qui se distingue non seulement par sa faible acidité et sa beauté visuelle, mais aussi par sa capacité à éveiller les sens, offrant une expérience gustative qui relie le passé au présent."
+        },
+        "serveis": {
+            "title": "Nos services",
+            "text": "Chez Oli Chavarria, nous travaillons sur nos propres domaines d'oliviers, caroubiers et amandiers ; toutefois, nous cultivons également des domaines tiers sous différents types de régimes selon le type et les caractéristiques de gestion et de rentabilité des domaines. <br> <br> Récemment, nous avons réalisé plusieurs transformations de domaines d'amandiers, avec la culture d'oliviers de la variété arbequina avec irrigation de soutien.<br> <br>",
+            "claim": "Contactez-nous et nous étudierons les possibilités."
+        },
+
+        "contacte": {
+            "title": "Contact"
         }
     }
 }

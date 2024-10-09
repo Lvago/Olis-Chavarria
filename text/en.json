@@ -1,20 +1,37 @@
 {
-    "title": "Olis Chavarria",
+    "title": "Oli Chavarria",
     "header": {
         "historia": "History",
         "produccio": "Production",
-        "productes": "Oils",
+        "productes": "Oil",
         "serveis": "Services",
         "contacte": "Contact"
     },
     "sections": {
+        "productes": {
+            "title": "Our Oil",
+            "text": "<b> Oli Chavarria - Superior Quality Olive Oil</b> <br> <br> Discover the authentic taste of the Mediterranean land with Oli Chavarria, an olive oil crafted with care and passion. Our olive trees, traditionally and sustainably cultivated, produce oil of the highest quality, obtained directly from olives and only through mechanical processes to preserve all its natural properties. Main features: <br> <br> <b>100% Virgin:</b> Obtained directly from selected olives and only through mechanical processes. <br> <br> <b> Unique Flavor: </b> Fruity notes with a balanced touch of bitterness and spiciness, ideal for salads, vegetables, fish, and meat. <br> <br> <b> Natural and Healthy: </b> Rich in antioxidants and monounsaturated fatty acids, beneficial for heart health. <br> <br> <b> Local Origin: </b> Made from olives traditionally harvested on our family estate, committed to quality and sustainability. <br> <br> Ideal for both experienced chefs and those looking to elevate their everyday dishes, Oli Chavarria is more than just a condiment, it is a gastronomic experience that evokes the purity and essence of our land. Try it and bring a piece of the Mediterranean to your table!",
+            "claim": "If you're interested, contact us"
+        },
         "historia": {
-            "title": "La nostra història",
-            "content": "En el cor d'un paisatge captivador..."
+            "title": "Our Story",
+            "text": "In the heart of a captivating landscape, nestled between mountains and hidden valleys, lies the Chavarria family estate, which we affectionately call \"the mountain.\" In this unique spot, cradled between two slopes and caressed by the Barranc de les Monges, is where Joan Chavarria, in 2014, began to forge the dream of offering a superior quality extra virgin olive oil. Over an area of 60 jornals, this land becomes a living tapestry, woven with dry-stone terraces supporting olive, carob, and marcona almond trees. <br><br>Looking to the future, 2024 has witnessed the establishment of a new one-hectare estate in Bot (Terra Alta), where our dedication to traditional practices shines with the 6x6 planting plan. This decision symbolizes our commitment to agriculture that respects the rhythm of the land, steering away from the temptations of super-intensive production to ensure that each drop of Oli Chavarria reflects quality, flavor, and sustainability.",
+            "claim": "At Oli Chavarria, every olive is a story, every drop of oil a testament to our love for the land. We invite you to be part of this journey that connects past, present, and future in every bottle of our exquisite olive oil."
         },
         "produccio": {
-            "title": "Producció d'oli",
-            "content": "En el cor de la tradició..."
+            "title": "Oil Production",
+            "text-1": "At the heart of Oli Chavarria’ tradition and excellence, the harvesting of olives is a ritual carried out with mastery and deep respect for nature. This process begins with the use of nets, also known as \"mantles,\" carefully laid out under the trees, an ancestral method that protects each fallen olive. Thus, the harvesters, armed with rod machines, proceed to gently shake the branches with care and precision, ensuring that each fruit is dislodged with minimal damage. <br> <br> Once harvested, the olives are transported to the mill with care and speed to preserve their freshness and inherent quality. This quick transfer is key to avoiding any degradation of the fruit, being unloaded in bulk and ground in an extraordinarily short time. This diligence ensures that the oil produced retains its pure essence and exceptional quality. <br>",
+            "text-2": "The meticulousness of our production process allows us to achieve superb quality levels, with exceptionally low acidity levels, generally not exceeding 0.3%. This precision is reflected in the chromatic richness of our oil, ranging from intense green to bright yellow, depending on the stage of the harvest when the olives are collected. This color variation is a testament to the natural cycle of the olive and our ability to capture the essence of each moment of the season.",
+            "claim": "The result is an olive oil that not only stands out for its low acidity and visual beauty but also for its ability to awaken the senses, offering a taste experience that connects the past with the present."
+        },
+        "serveis": {
+            "title": "Our Services",
+            "text": "At Oli Chavarria, we work on our own olive, carob, and almond estates; however, we also cultivate third-party estates under different types of arrangements depending on the management type and profitability characteristics of the estates. <br> <br> Recently, we have carried out several transformations of almond estates, planting Arbequina olive trees with supplemental irrigation.<br> <br>",
+            "claim": "Contact us and we’ll explore the possibilities."
+        },
+
+        "contacte": {
+            "title": "Contact"
         }
     }
 }
