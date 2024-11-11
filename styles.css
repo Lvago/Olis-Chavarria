@@ -5,10 +5,11 @@
     box-sizing: border-box;
 }
 
+
 html, body {
     width: 100%;
     height: 100%;
-    font-family: futura;
+    font-family: 'Poppins', sans-serif; /* Cambiado de futura a Poppins */
     min-height: 100vh;
     scroll-behavior: smooth;
 }
@@ -486,7 +487,7 @@ section {
 #contenidor-telefons {
     display: flex;
     flex-direction: column; 
-    align-items: flex-end;
+    align-items: flex-start;
 }
 #text-imatge-contactes {
     display: flex;
